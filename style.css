@@ -1,12 +1,15 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:whitesmoke;
+    color: rgb(255, 255, 255);
+    background-image: url(images/background.png);
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+/* Header */
+
 header{
-    background-color: rgba(0, 0, 0, 0.184);
+    background-color: rgba(0, 0, 0, 0.325);
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
@@ -14,13 +17,70 @@ header{
     justify-content: space-between;
 }
 
-#menu{
-    text-decoration: none;
+#links{
     list-style: none;
 }
 
-#menu li{
+#links li{
     display: inline-block;
     padding: 10px;
 }
 
+#links li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#links li a:hover{
+    color: rgba(255, 255, 255, 0.612);
+}
+
+/* Starting page */
+
+.aboutMe{
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 80%;
+    justify-content: center;
+}
+
+#myPhoto{
+    height: 350px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+#aboutText{
+    display: block;
+    margin-left: 20px;
+}
+
+/* Templates */
+
+#menu{
+    display: flex;
+    align-content: space-evenly;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#menuButton{
+    width: 35%;
+}
+
+
+/* About Me */
+
+
+/* Achievments */
+
+
+/* Skills */
+
+
+/* Hobbies */
