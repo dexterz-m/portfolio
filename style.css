@@ -26,13 +26,12 @@ header{
     padding: 10px;
 }
 
-#links li a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+#links img{
+    filter: invert(100%);
 }
 
-#links li a:hover{
-    color: rgba(255, 255, 255, 0.612);
+#links img:hover{
+    filter: invert(70%);
 }
 
 /* Starting page */
@@ -42,7 +41,7 @@ header{
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     width: 80%;
     justify-content: center;
 }
@@ -66,15 +65,12 @@ header{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    
+    margin-bottom: 100px;
 }
 
 #menuButton{
     width: 35%;
 }
-
-
-/* About Me */
 
 
 /* Achievments */
@@ -84,3 +80,13 @@ header{
 
 
 /* Hobbies */
+
+
+/* Footer */
+
+footer{
+    text-align: center;
+    padding: 1px;
+    margin-bottom: 0%;
+    background-color: rgba(0, 0, 0, 0.325);
+}
