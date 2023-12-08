@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.184);
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu{
+    text-decoration: none;
+    list-style: none;
+}
+
+#menu li{
+    display: inline-block;
+    padding: 10px;
+}
+
