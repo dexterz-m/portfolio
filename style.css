@@ -15,6 +15,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 #links{
@@ -48,6 +49,7 @@ header{
 
 #myPhoto{
     height: 350px;
+    width: auto;
     border-radius: 25px;
     margin-right: 20px;
 }
@@ -59,17 +61,36 @@ header{
 
 /* Templates */
 
-#menu{
-    display: flex;
-    align-content: space-evenly;
-    text-align: center;
+.menu{
+    width: 90%;
+    height: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
+    display: flex;
 }
 
-#menuButton{
-    width: 35%;
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.325);
+    overflow-wrap:break-word;
+    overflow: hidden;
+}
+
+.container:hover{
+    border: solid 3px black;
+    background-color: rgba(0, 0, 0, 0.500);
+    cursor: pointer;
+}
+
+.container img{
+    filter: invert(100%);
 }
 
 
