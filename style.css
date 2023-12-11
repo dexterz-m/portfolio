@@ -15,7 +15,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 
 #links{
@@ -41,7 +41,7 @@ header{
     display: flex;
     margin-top: 30px;
     margin-left: 8%;
-    margin-bottom: 75px;
+    margin-bottom: 100px;
     width: 80%;
 }
 
@@ -64,7 +64,7 @@ header{
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 75px;
+    margin-bottom: 100px;
     display: flex;
     align-items:center;
 }
@@ -79,7 +79,7 @@ header{
     background-color: rgba(0, 0, 0, 0.325);
     overflow: hidden;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -95,9 +95,63 @@ header{
     height: 26px;
 }
 
+#seperator{
+    outline-color: rgba(0, 0, 0, 0.325);
+    margin-top: 125px;
+}
 
 /* Achievments */
 
+.sectionHead{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionHead img{
+    filter: invert(100%);
+    height: 30px;
+    margin-left: 20px;
+}
+
+.achievmentsContainer{
+    display: block;
+    max-width: 600px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-radius: 25px;
+    border: solid 2px black;
+    background-color: rgba(0, 0, 0, 0.325);
+}
+
+.aHeader{
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery{
+    width: 400px;
+    height: 300px;
+    border: solid 2px black;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
+.gallery img{
+    height: 300px;
+    border-radius: 25px;
+}
+
+.aDescription{
+    text-align: center;
+}
 
 /* Skills */
 
