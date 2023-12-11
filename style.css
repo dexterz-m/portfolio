@@ -3,7 +3,7 @@ body{
     padding: 0;
     color: rgb(255, 255, 255);
     background-image: url(images/background.png);
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Header */
@@ -15,7 +15,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 5%;
+    margin-bottom: 50px;
 }
 
 #links{
@@ -41,7 +41,7 @@ header{
     display: flex;
     margin-top: 30px;
     margin-left: 8%;
-    margin-bottom: 5%;
+    margin-bottom: 75px;
     width: 80%;
 }
 
@@ -64,7 +64,7 @@ header{
     height: 100px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 75px;
     display: flex;
     align-items:center;
 }
@@ -74,12 +74,13 @@ header{
     margin-right: auto;
     padding: 10px;
     width: 25%;
-    text-align: center;
     border: solid 2px black;
     border-radius: 25px;
     background-color: rgba(0, 0, 0, 0.325);
-    overflow-wrap: break-word;
     overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .container:hover{
@@ -90,6 +91,8 @@ header{
 
 .container img{
     filter: invert(100%);
+    width: 26px;
+    height: 26px;
 }
 
 
