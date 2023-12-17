@@ -35,12 +35,14 @@ arrowLeft.onclick = function(e) {
 
 updateProjects(num)
 
+
 // Skills
 
+
 var list2 = [
-    { title: "After Efects", image: "", description: "Handling basics of Ae" },
-    { title: "Languages", image: "", description: "Can contact in 4 languages" },
-    { title: "Programming", image: "", description: "Python, HTML, CSS, JS and bit of Java" }
+    { title: "After Efects", image: "images/Ae.png", description: "Handling basics of Ae" },
+    { title: "Languages", image: "images/languages.png", description: "Can contact in 4 languages" },
+    { title: "Programming", image: "images/programing.png", description: "Python, HTML, CSS, JS" }
 ];
 
 var arrowRight2 = document.getElementById("arrow-right2");
@@ -72,16 +74,17 @@ arrowLeft2.onclick = function(e) {
 
 updateProjects2(num2)
 
+
 // Hobbies
 
-var list3 = [
-    { title: "", image: "", description: "" },
-    { title: "", image: "", description: "" },
-    { title: "", image: "", description: "" }
-];
 
-var arrowRight3 = document.getElementById("arrow-right2");
-var arrowLeft3 = document.getElementById("arrow-left2");
+var list3 = [
+    { title: "Traveling", image: "", description: "Visited x countries" },
+    { title: "Sports", image: "", description: "I can play all kinds of sports" }
+]
+
+var arrowRight3 = document.getElementById("arrow-right3");
+var arrowLeft3 = document.getElementById("arrow-left3");
 var num3 = 0;
 
 function updateProjects3(num3) {
@@ -96,7 +99,7 @@ arrowRight3.onclick = function(e) {
     if (num3 > list3.length - 1) {
         num3 = 0;
     }
-    updateProjects2(num3)
+    updateProjects3(num3)
 }
 
 arrowLeft3.onclick = function(e) {
