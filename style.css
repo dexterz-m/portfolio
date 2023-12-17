@@ -164,6 +164,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
+    border: 1px solid white;
 }
 
 .pDescription{
@@ -258,6 +259,65 @@ header{
 
 
 /* Hobbies */
+
+.hContainer{
+    width: 700px;
+    height: 500px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 10px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.325);
+}
+
+.hHead{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.hGallery{
+    display: flex;
+    align-items: center;
+}
+
+.hGallery #sPhoto{
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.hDescription{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#arrow-left3{
+    height: 64px;
+    filter: invert(100%);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-left: 20px;
+}
+
+#arrow-left3:hover{
+    filter: invert(80%);
+    cursor: pointer;
+}
+
+#arrow-right3{
+    height: 64px;
+    filter: invert(100%);
+    margin-right: 20px;
+}
+
+#arrow-right3:hover{
+    filter: invert(80%);
+    cursor: pointer;
+}
 
 
 /* Footer */

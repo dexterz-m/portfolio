@@ -3,8 +3,8 @@
 // Projects
 
 var list = [
-    { title: "", image: "", description: "" },
-    { title: "D3X Brand", image: "images/achievment2.jpg", description: "Founded my personal brand (2023)" }
+    { title: "This website", image: "images/project1.png", description: "It was made by Me!" },
+    { title: "D3X Brand", image: "images/project2.jpg", description: "Founded my personal brand (2023)" }
 ];
 
 var arrowRight = document.getElementById("arrow-right");
@@ -38,8 +38,9 @@ updateProjects(num)
 // Skills
 
 var list2 = [
-    { title: "1", image: "", description: "1" },
-    { title: "2", image: "", description: "2" }
+    { title: "After Efects", image: "", description: "Handling basics of Ae" },
+    { title: "Languages", image: "", description: "Can contact in 4 languages" },
+    { title: "Programming", image: "", description: "Python, HTML, CSS, JS and bit of Java" }
 ];
 
 var arrowRight2 = document.getElementById("arrow-right2");
@@ -55,7 +56,7 @@ function updateProjects2(num2) {
 
 arrowRight2.onclick = function(e) {
     num2 += 1;
-    if (num2 > list.length - 1) {
+    if (num2 > list2.length - 1) {
         num2 = 0;
     }
     updateProjects2(num2)
@@ -64,9 +65,46 @@ arrowRight2.onclick = function(e) {
 arrowLeft2.onclick = function(e) {
     num2 -= 1;
     if (num2 < 0) {
-        num2 = list.length - 1;
+        num2 = list2.length - 1;
     }
     updateProjects2(num2)
 }
 
 updateProjects2(num2)
+
+// Hobbies
+
+var list3 = [
+    { title: "", image: "", description: "" },
+    { title: "", image: "", description: "" },
+    { title: "", image: "", description: "" }
+];
+
+var arrowRight3 = document.getElementById("arrow-right2");
+var arrowLeft3 = document.getElementById("arrow-left2");
+var num3 = 0;
+
+function updateProjects3(num3) {
+    document.getElementById("hTitle").textContent = list3[num3].title;
+    document.getElementById("hDescription").textContent = list3[num3].description;
+    document.getElementById("hPhoto").src = list3[num3].image;
+}
+
+
+arrowRight3.onclick = function(e) {
+    num3 += 1;
+    if (num3 > list3.length - 1) {
+        num3 = 0;
+    }
+    updateProjects2(num3)
+}
+
+arrowLeft3.onclick = function(e) {
+    num3 -= 1;
+    if (num3 < 0) {
+        num3 = list3.length - 1;
+    }
+    updateProjects3(num3)
+}
+
+updateProjects3(num3)
