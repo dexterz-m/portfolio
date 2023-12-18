@@ -142,7 +142,7 @@ header{
     border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 13%;
     padding: 10px;
     display: block;
     background-color: rgba(0, 0, 0, 0.325);
@@ -203,7 +203,7 @@ header{
     border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 13%;
     padding: 10px;
     display: block;
     background-color: rgba(0, 0, 0, 0.325);
@@ -260,12 +260,12 @@ header{
 /* Hobbies */
 
 .hContainer{
-    width: 700px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
     border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 13%;
     padding: 10px;
     display: block;
     background-color: rgba(0, 0, 0, 0.325);
@@ -282,8 +282,7 @@ header{
     align-items: center;
 }
 
-.hGallery #sPhoto{
-    height: 300px;
+.hGallery #hPhoto{
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;

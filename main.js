@@ -40,7 +40,7 @@ updateProjects(num)
 
 
 var list2 = [
-    { title: "After Efects", image: "images/Ae.png", description: "Handling basics of Ae" },
+    { title: "After Effects", image: "images/Ae.png", description: "Handling basics of Ae" },
     { title: "Languages", image: "images/languages.png", description: "Can contact in 4 languages" },
     { title: "Programming", image: "images/programing.png", description: "Python, HTML, CSS, JS" }
 ];
@@ -79,8 +79,8 @@ updateProjects2(num2)
 
 
 var list3 = [
-    { title: "Traveling", image: "", description: "Visited x countries" },
-    { title: "Sports", image: "", description: "I can play all kinds of sports" }
+    { title: "Traveling", image: "images/globe.png", description: "Visited 11 countries" },
+    { title: "Sports", image: "images/sport.png", description: "I can play all kinds of sports" }
 ]
 
 var arrowRight3 = document.getElementById("arrow-right3");
